@@ -1,4 +1,4 @@
-# Portfólio / Currículo Web — Desenvolvedor Web
+# Portfólio / Currículo Web — Desenvolvimento de Sistema
 
 Este projeto é uma página de **Portfólio e Currículo Web** desenvolvida em HTML5 puro e semântico. A estrutura foi criada como parte do desafio prático do curso de Desenvolvimento de Sistemas do SENAI.
 
@@ -35,28 +35,4 @@ A página está dividida em 4 seções principais organizadas de forma lógica e
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5 Puro:** Sem o uso de frameworks externos, focando no domínio das tags semânticas nativas da linguagem de marcação.
-
----
-
-## 📂 Estrutura de Arquivos
-
-```text
-.
-├── index.html   # Código-fonte principal da página
-└── README.md    # Documentação do projeto
-```
-
----
-
-## 🚀 Como Executar o Projeto
-
-1. Faça o download ou clone este repositório.
-2. Navegue até a pasta do projeto.
-3. Abra o arquivo `index.html` diretamente em qualquer navegador web (Google Chrome, Firefox, Edge, Safari, etc.).
-
----
-
-## 👨‍💻 Autor
-
-Desenvolvido por **Mark Zuckerberg** durante o curso de Desenvolvimento de Sistemas — **SENAI**.
+- **HTML5:** Sem o uso de frameworks externos, focando no domínio das tags semânticas nativas da linguagem de marcação.
