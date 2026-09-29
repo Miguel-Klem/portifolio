@@ -3,107 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio - Miguel Klem</title>
+    <title>Portfólio - Miguel Klem</title>
 </head>
+    <style>
+    /* Perfil da Página */
+    body {
+        font-family: Arial;  /* Fonte: Arial */
+        background-color: #f8f9fa;  /* Cor de Fundo */
+    }
+</style>
 <body>
-    <h1>Miguel Klem - Desenvolver de Sistema</h1>
-    <ul style="list-style-type: disc;">
-        <li><a href="#sobre">Sobre Mim</a></li>
-        <li><a href="#projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-    </ul>
+
+    <!-- Cabeçalho e Menu de Navegação -->
+    <header>
+        <h1>Miguel Klem - Desenvolvedor de Sistemas</h1>
+        
+        <!-- Menu com links para ancorar com as seções da página -->
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <hr>
-    <h2 id="sobre">Sobre Mim</h2>
-    <img src="/images/foto_perfil.jpg" alt="Foto de Perfil" width="200" height="200">
-    <p>Sou estudante de <strong>Desenvolvimento de Sistema</strong> no SENAI</p>
-    <p>Estou me aperfeiçoando em Liguagens de Marcação e Programação</p>
-    <p>Minhas Habilidades em Aperfeiçoamento:</p>
-    <ul>
-        <li><i>HTML 5</i></li>
-        <li><i>CSS 3</i></li>
-        <li><i>PHP</i></li>
-        <li><i>SQL</i></li>
-    </ul>
-    <hr>
-    <h2 id="projetos">Meus Projetos</h2>
+    
+    <!-- Início da Página em si -->
 
-    <table border="1" cellpadding="10" cellspacing="0">
+    <main>
 
-        <thead>
-            <tr>
-                <th>Projetos</th>
-                <th>Tecnologias</th>
-                <th>Status</th>
-                <th>Link</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>Criação de Protótipo para o site do CAT-166</td>
-                <td>PHP, HTML5, CSS3, JSON</td>
-                <td>Em Andamento</td>
-                <td><a href="https://miguel-klem.github.io/cat_166_prototipo/"></a>Ver Projeto</td>
-            </tr>
-            <tr>
-                <td>Criação de Protótipo para o site do CAT-166</td>
-                <td>PHP, HTML5, CSS3, JSON</td>
-                <td>Em Andamento</td>
-                <td><a href="https://miguel-klem.github.io/cat_166_prototipo/"></a>Ver Projeto</td>
-            </tr>
-            <tr>
-                <td>Criação de Protótipo para o site do CAT-166</td>
-                <td>PHP, HTML5, CSS3, JSON</td>
-                <td>Em Andamento</td>
-                <td><a href="https://miguel-klem.github.io/cat_166_prototipo/"></a>Ver Projeto</td>
-            </tr>
-            <tr>
-                <td>Criação de Protótipo para o site do CAT-166</td>
-                <td>PHP, HTML5, CSS3, JSON</td>
-                <td>Em Andamento</td>
-                <td><a href="https://miguel-klem.github.io/cat_166_prototipo/"></a>Ver Projeto</td>
-            </tr>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
             
-        </tbody>
-    </table>
-    <br>
-    <hr>
-    <h2 id="contato">Entre em Contato</h2>
+            <!-- Foto de perfil -->
+            <img src="/images/foto_perfil.jpg" alt="Foto de Perfil de Miguel Klem" width="150" height="150">
+            
+            <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+            <p>Estou me aperfeiçoando em Linguagens de Marcação e Programação.</p>
 
-    <form action="#" method="POST">
-        <fieldset>
-            <legend>Dados do Contato</legend>
+            <!-- Lista com Habilidades -->
+            <p>Minhas Habilidades em Aperfeiçoamento:</p>
+            <ul>
+                <li><i>HTML 5</i></li>
+                <li><i>CSS 3</i></li>
+                <li><i>PHP</i></li>
+                <li><i>SQL</i></li>
+            </ul>
+        </section>
 
-            <p>
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" name="nome">
-            </p>
+        <hr>
 
-            <p>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email">
-            </p>
+        <!-- Seção de Projetos  -->
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
 
-            <p>
-                <label for="assunto">Assunto:</label><br>
-                <select id="assunto" name="assunto">
-                    <option value="oportunidade">Oportunidade de Trabalho</option>
-                    <option value="duvida">Dúvida</option>
-                    <option value="outro">Outro</option>
-                </select>
-            </p>
+            <!-- Tabela e visualização dos Projetos -->
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Projetos</th>
+                        <th>Tecnologias</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
 
-            <p>
-                <label for="mensagem">Mensagem:</label><br>
-                <textarea id="mensagem" name="mensagem" rows="4" cols="25"></textarea>
-            </p>
+                <tbody>
+                    <tr>
+                        <td>Criação de Protótipo para o site do CAT-166</td>
+                        <td>PHP, HTML5, CSS3, JSON</td>
+                        <td>Em Andamento</td>
+                        <!-- O texto "Ver Projeto" deve ficar dentro da tag <a> -->
+                        <td><a href="https://miguel-klem.github.io/cat_166_prototipo/" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                    <tr>
+                        <td>Criação de um Sistema de Solicitação Interna Corporativo</td>
+                        <td>PHP, HTML5, CSS3, SQL, MySQL WorkBench</td>
+                        <td>Em Andamento</td>
+                        <td><a href="https://github.com/Miguel-Klem/sistema_de_solicita-es_internas" target="_blank">Ver Projeto</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-            <p>
-                <input type="submit" value="Enviar Mensagem">
-            </p>
-        </fieldset>
-    </form>
+        <br>
+        <hr>
 
+        <!-- Seção de Contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+
+            <form action="#" method="POST">
+                <!-- fieldset: Cria a caixa com borda em volta do Formulário -->
+                <fieldset>
+                    <!-- legend: Título que fica em cima da borda -->
+                    <legend>Dados do Contato</legend>
+
+                    <p>
+                        <label for="nome">Nome: </label><br>
+                        <input type="text" id="nome" name="nome">
+                    </p>
+
+                    <p>
+                        <label for="email">Email: </label><br>
+                        <input type="email" id="email" name="email">
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto: </label><br>
+                        <select id="assunto" name="assunto">
+                            <option value="oportunidade">Oportunidade de Trabalho</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem: </label><br>
+                        <textarea id="mensagem" name="mensagem" rows="4" cols="25"></textarea>
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Enviar Mensagem">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
     <footer>
         <p>&copy; 2026. Desenvolvido durante o curso do SENAI.</p>
         <hr>
@@ -112,9 +144,6 @@
             <a href="tel:11943150177">(11) 94315-0177</a>
         </p>
     </footer>
-
-</body>
-</html>
 
 </body>
 </html>
